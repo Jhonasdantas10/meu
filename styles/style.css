@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size:100% ;
+    background:black;
+    color:#d6b23c;
+    font-family: poppinslight;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+}
+
+#title{
+    font-size: 20px;
+}
+
+.imagem-cabeçalho{
+    width: 100px;
+    height: 100px;
+    border:3px solid #ecc440;
+}
+
+.item{
+    display:inline-block;
+    flex-direction:row;
+    font-size: 18px;
+    font-family: poppinslight;
+    margin-top: 10px;
+    margin:50px;
+    border:1px solid #ecc440;
+    padding:18px;
+    border-radius: 15px;
+}
+
+.nome {
+    margin-left: 300px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #d6b23c;
+}
+
+.conteudo-principal{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction:column;
+    gap:32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: poppinsblack;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.conteudo-principal-escrito-texto{
+    font-family:poppinsmedium;
+    font-size: 15px;
+    
+}
+
+.foto-do-barbeiro{
+    height: 430px;
+}
+
+h2 {
+    display:inline-block;
+    line-height:30px;
+    padding: 17px;
+    max-width: 500px;
+    font-family: poppinssemibold;
+    border:3px solid #ecc440;
+}
+
+/* Correção do alinhamento, fonte e linha superior */
+.serviços-propostos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+     /* Linha superior */
+    padding-top: 40px;
+}
+
+.serviços-propostos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppinslight; /* Garantir a fonte correta */
+}
+
+.serviços-propostos-titulo {
+    text-align: center;
+    font-family: poppinsblack;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    padding-top: 40px; /* Adiciona espaço acima do título */
+    border-top: 1px solid #d6b23c; /* Linha superior */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza o título */
+}
+
+
+.legenda1, .legenda2, .legenda3, .legenda4 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: poppinslight;
+    font-size: 20px;
+}
+
+/* Ajuste das imagens para não desalinhar */
+.serviços-propostos-barba-img,
+.serviços-propostos-cabelo-img,
+.serviços-propostos-nevou-img,
+.serviços-propostos-sobrancelha-img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ecc440;
+}
+
+/* Garantindo centralização dos serviços */
+.barba, .cabelo, .platinado, .sobrancelha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.rodape{
+    padding: 32px;
+    border-top:0.4px solid #d6b23c;
+    margin-top: 250px;
+    display:flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap:50px;
+}
+
+.atend{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.rede{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+h4{
+    font-size: 17px;
+    font-family: poppinsmedium;
+}
+
+#contato-botao, #unidade-botao, #serviços-botao, #inicio-botao {
+    color:#d6b23c;
+}
+
+#contato-botao:hover, #unidade-botao:hover, #serviços-botao:hover, #inicio-botao:hover {
+    background-color: #d6b23c;
+    color:white;
+}
