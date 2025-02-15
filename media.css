@@ -1,0 +1,111 @@
+/* Estilos gerais para dispositivos móveis (telas menores que 768px) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 85%; /* Diminui o tamanho da fonte para caber melhor na tela */
+        padding: 0 10px;
+    }
+
+    /* Ajustar cabeçalho e logotipo */
+    .cabeçalho {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .imagem-cabeçalho {
+        width: 100px;
+        height: 100px;
+        align-items: center;
+    }
+
+    #title h1 {
+        font-size: 30px;
+        text-align: center;
+        font-family: poppinsblack;
+        margin-top: 15px;
+    }
+
+    /* Ajustar os itens do menu */
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:40px;
+        margin-top:20px
+    }
+
+    .item {
+        font-size: 16px;
+        margin: 10px 0;
+        width: 100%; /* Aumenta a área de clique em dispositivos móveis */
+        text-align: center;
+    }
+
+    /* Ajustar a seção principal de conteúdo */
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .conteudo-principal-escrito {
+        text-align: center;
+        gap: 20px;
+        width: 100%; /* O conteúdo textual ocupa a largura total */
+    }
+
+    .conteudo-principal-escrito-titulo {
+        font-size: 32px;
+        padding-top: 10px;
+        margin-top: 40px;
+    }
+
+    .conteudo-principal-escrito-texto {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    /* Ajuste da imagem do barbeiro para ocupar o mesmo espaço que o conteúdo de texto */
+    .foto-do-barbeiro {
+        width: 100%; /* A imagem ocupará toda a largura disponível */
+        height: auto; /* Manterá a proporção da imagem */
+        max-width: 100%; /* Limita a largura total */
+        margin-top: 20px;
+    }
+
+    /* Serviços propostos */
+    .serviços-propostos {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .serviços-propostos div {
+        width: 100%;
+        align-items: center;
+    }
+
+    .serviços-propostos img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .legenda1, .legenda2, .legenda3, .legenda4 {
+        font-size: 16px;
+    }
+
+    /* Ajustar o rodapé */
+    .rodape {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 50px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .rodape p {
+        font-size: 14px;
+    }
+}
